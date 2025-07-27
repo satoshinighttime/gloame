@@ -30,15 +30,21 @@ jobs:
           npm run build --if-present
           npm run test --if-present
 
+      - name: Prepare deployment package
+        run: |
+          mkdir -p deploy
+          cp -r gloame-ai/dist deploy/
+          cp gloame-ai/server.js deploy/
+          cp gloame-ai/package.json deploy/
+          cp gloame-ai/package-lock.json deploy/
+          cd deploy && npm ci --production
+          cd ..
+          
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: |
-            gloame-ai/dist
-            gloame-ai/server.js
-            gloame-ai/package.json
-            gloame-ai/package-lock.json
+          path: deploy/
 
   deploy:
     runs-on: ubuntu-latest
