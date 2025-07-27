@@ -25,15 +25,19 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          cd gloame-ai
           npm install
           npm run build --if-present
           npm run test --if-present
 
+      - name: Copy web.config to dist
+        run: cp gloame-ai/public/web.config gloame-ai/dist/
+        
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: .
+          path: gloame-ai/dist
 
   deploy:
     runs-on: ubuntu-latest
