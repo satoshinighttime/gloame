@@ -35,6 +35,7 @@ jobs:
           mkdir -p deploy
           cp -r gloame-ai/dist deploy/
           cp gloame-ai/server.js deploy/
+          cp gloame-ai/password.html deploy/
           cp gloame-ai/package.json deploy/
           cp gloame-ai/package-lock.json deploy/
           cd deploy && npm ci --production
