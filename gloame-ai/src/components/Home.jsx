@@ -6,7 +6,9 @@ function Home() {
       <NumberMatrix />
       <div className="hero">
         <h1 className="hero-title">
-          advancing artificial intelligence through cutting-edge research
+          advancing intelligence through intersections in
+          cognition, computation, composition and creativity. 
+
         </h1>
         <p className="hero-subtitle">
           gloame.ai is pioneering next-generation neural architectures and machine learning systems 

@@ -39,12 +39,12 @@ function App() {
               >
                 research
               </Link>
-              <Link 
+              {/* <Link 
                 to="/applications"
                 className={`nav-link ${getActiveSection() === 'applications' ? 'active' : ''}`}
               >
                 applications
-              </Link>
+              </Link> */}
               <Link 
                 to="/about"
                 className={`nav-link ${getActiveSection() === 'about' ? 'active' : ''}`}
