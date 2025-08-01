@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080;
 
 // Secret for sessions
 const SESSION_SECRET = process.env.SESSION_SECRET || crypto.randomBytes(32).toString('hex');
-const PASSWORD = 'perfectdark';
+const PASSWORD = 'perfectdarkzero';
 
 // Simple in-memory session store
 const sessions = new Map();
