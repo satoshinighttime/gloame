@@ -4,17 +4,21 @@ function About() {
       <h2>about gloame.ai</h2>
       <div className="about-content">
         <p>
-          gloame.ai is an artificial intelligence research laboratory focused on 
-          advancing the state of the art in machine learning and neural architectures.
+        gloame.ai is a research lab pursuing music as a fundamental vector into the nature of intelligence.
         </p>
         <p>
-          our mission is to develop intelligent systems that can understand, 
-          reason, and interact with the world in increasingly sophisticated ways.
+          gloame.ai is led by:
         </p>
-        <p>
-          we believe in open research and collaboration to accelerate progress 
-          in artificial intelligence for the benefit of humanity.
-        </p>
+        <div className="contact-info">
+          <p>
+            Austin Rockman<br />
+            <a href="mailto:austin@gloame.ai">austin@gloame.ai</a>
+          </p>
+          <p>
+            Roopam Garg<br />
+            <a href="mailto:roopam@gloame.ai">roopam@gloame.ai</a>
+          </p>
+        </div>
       </div>
     </section>
   )

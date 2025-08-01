@@ -6,13 +6,11 @@ function Home() {
       <NumberMatrix />
       <div className="hero">
         <h1 className="hero-title">
-          advancing intelligence through intersections in
-          cognition, computation, composition and creativity. 
+        music as a portal into the nature of intelligence. 
 
         </h1>
         <p className="hero-subtitle">
-          gloame.ai is pioneering next-generation neural architectures and machine learning systems 
-          that push the boundaries of what's possible with artificial intelligence.
+          gloame.ai is a research lab operating at the intersection of music composition, human cognition, and machine learning.
         </p>
       </div>
     </section>
