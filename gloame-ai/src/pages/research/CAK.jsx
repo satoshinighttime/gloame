@@ -33,8 +33,8 @@ function CAK() {
         
         <div className="paper-detail-meta">
           <span className="authors">Austin Rockman</span>
-          <span className="year">July 31, 2025</span>
-          <span className="venue">gloame.ai</span>
+          <span className="year">2025</span>
+          <span className="venue">GLOAME</span>
         </div>
         
         <div className="paper-actions">

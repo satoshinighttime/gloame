@@ -4,10 +4,10 @@ function Research() {
   const papers = [
     {
       id: 1,
-      title: "CAK: Conditioning-Aware Kernels for Personalized Audio Effects",
-      authors: "Rockman & Garg",
+      title: "CAK: Emergent Audio Effects from Minimal Deep Learning",
+      authors: "Austin Rockman",
       year: 2025,
-      abstract: "We demonstrate that a single 3×3 convolutional kernel can produce multiple audio effects when trained on just 200 samples from a personalized corpus. This result challenges fundamental assumptions about neural audio processing complexity.",
+      abstract: "We demonstrate that a single 3×3 convolutional kernel can produce emergent audio effects when trained on 200 samples from a personalized corpus. We achieve this through two key techniques: (1) Conditioning Aware Kernels (CAK), where output = input + (learned_pattern × control), with a soft-gate mechanism supporting identity preservation at zero control; and (2) AuGAN (Audit GAN), which reframes adversarial training from \"is this real?\" to \"did you apply the requested value?\"",
       slug: "cak"
     }
   ]
