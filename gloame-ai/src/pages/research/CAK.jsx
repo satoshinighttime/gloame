@@ -419,6 +419,26 @@ function CAK() {
             </p>
           </section>
           
+          <section className="paper-section">
+            <h3>References</h3>
+            <div className="references">
+              <p>Barlow, H. (1961). Possible principles underlying the transformation of sensory messages. In <em>Sensory communication</em> (pp. 217-234). MIT Press.</p>
+              <p>Caillon, A., & Esling, P. (2021). RAVE: A variational autoencoder for fast and high-quality neural audio synthesis. <em>arXiv preprint arXiv:2111.05011</em>.</p>
+              <p>Donahue, C., McAuley, J., & Puckette, M. (2018). Adversarial audio synthesis. In <em>International Conference on Learning Representations</em>.</p>
+              <p>Engel, J., Agrawal, K. K., Chen, S., Gulrajani, I., Donahue, C., & Roberts, A. (2019). GANSynth: Adversarial neural audio synthesis. In <em>International Conference on Learning Representations</em>.</p>
+              <p>Engel, J., Hantrakul, L., Gu, C., & Roberts, A. (2020). DDSP: Differentiable digital signal processing. In <em>International Conference on Learning Representations</em>.</p>
+              <p>Finn, C., Abbeel, P., & Levine, S. (2017). Model-agnostic meta-learning for fast adaptation of deep networks. In <em>International Conference on Machine Learning</em> (pp. 1126-1135).</p>
+              <p>Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2014). Generative adversarial nets. In <em>Advances in neural information processing systems</em> (pp. 2672-2680).</p>
+              <p>Mordvintsev, A., Randazzo, E., & Fouts, C. (2022). Growing isotropic neural cellular automata. In <em>Artificial Life Conference Proceedings</em> (pp. 1-8).</p>
+              <p>Olshausen, B. A., & Field, D. J. (1996). Emergence of simple-cell receptive field properties by learning a sparse code for natural images. <em>Nature</em>, 381(6583), 607-609.</p>
+              <p>Perez, E., Strub, F., De Vries, H., Dumoulin, V., & Courville, A. (2018). FiLM: Visual reasoning with a general conditioning layer. In <em>Proceedings of the AAAI Conference on Artificial Intelligence</em>.</p>
+              <p>Perez, E., Strub, F., De Vries, H., Dumoulin, V., & Courville, A. (2019). FiLM: Visual reasoning with a general conditioning layer - A retrospective. In <em>ML Retrospectives Workshop at NeurIPS 2019</em>.</p>
+              <p>Snell, J., Swersky, K., & Zemel, R. (2017). Prototypical networks for few-shot learning. In <em>Advances in neural information processing systems</em> (pp. 4077-4087).</p>
+              <p>Treisman, A. M., & Gelade, G. (1980). A feature-integration theory of attention. <em>Cognitive psychology</em>, 12(1), 97-136.</p>
+              <p>Yang, B., Bender, G., Le, Q. V., & Ngiam, J. (2019). CondConv: Conditionally parameterized convolutions for efficient inference. In <em>Advances in Neural Information Processing Systems</em> (pp. 1307-1318).</p>
+            </div>
+          </section>
+          
         </div>
       </article>
     </section>
